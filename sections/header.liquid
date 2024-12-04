@@ -6,7 +6,11 @@
     {% case block.type %}
     {% when 'my_type_1' %}
     
-        {{ block.settings.my_logo | image_url: 'medium' | image_tag }}
+        {% if block.settings.my_logo %}
+            {{ block.settings.my_logo | image_url: 'medium' | image_tag }}
+        {% else %}
+            <p>No image</p>
+        {% endif %}
 
     {% when 'my_type_2' %}
     
