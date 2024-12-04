@@ -11,7 +11,34 @@
   "sections": {
     "header": {
       "type": "header",
-      "settings": {}
+      "blocks": {
+        "my_type_1_HUbjqG": {
+          "type": "my_type_1",
+          "settings": {
+            "my_logo": "shopify://shop_images/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
+          }
+        },
+        "my_type_1_9Hgj9Q": {
+          "type": "my_type_1",
+          "settings": {
+            "my_logo": "shopify://shop_images/rack-of-womens-clothing.jpg"
+          }
+        },
+        "my_type_2_xNqemm": {
+          "type": "my_type_2",
+          "settings": {
+            "mycolor": "#280606"
+          }
+        }
+      },
+      "block_order": [
+        "my_type_1_HUbjqG",
+        "my_type_1_9Hgj9Q",
+        "my_type_2_xNqemm"
+      ],
+      "settings": {
+        "title": "THIS IS MY HEADER"
+      }
     },
     "footer": {
       "type": "footer",
