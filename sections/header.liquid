@@ -7,7 +7,7 @@
     {% when 'my_type_1' %}
     
         {% if block.settings.my_logo %}
-            {{ block.settings.my_logo | image_url:  width: 400 | image_tag: width: nil }}
+            {{ block.settings.my_logo | image_url:  'medium' | image_tag }}
         {% else %}
             <p>No image</p>
         {% endif %}
